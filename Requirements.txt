@@ -1,26 +1,29 @@
-#requirements for this Statistical POS Tagger are :
-
-
-1. Git Repository Developed by Pos Tagger Team 1 : https://github.com/lavanmooga/Statistical_Model/tree/master
-
-2. Download the embedding file from https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.te.zip in colab file using 	   "wget https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.te.zip" command
-
-3. install gensim module. It is used for finding top 10 similar words of a given word 
-
-General Libraries:
-	OS : Automatically Performs many Operating System Tasks like Directory
-
-	SYS : Used to manipulate different parts of python runtime environment
-
-	INSPECT : Used get Information about Live Objects
-
-	IMPORTLIB : Provide implementation of import statement and to Create Custom Objects
-
-	CODECS : Provides Stream and file interfaces for transcoding the data
-
-	WARNINGS : Warns the developer of situations that aren't necessarily exceptions
-	Local Libraries:
-	UNITOK_LIB : Used to convert the input text into tokens
-
-	TE_HELPERS : Used to Eliminate input Tokens other than Telugu Language
-
+python_crfsuite>=0.9.5
+tensorflow==2.4.0
+tensorboard~=2.4
+scikit_learn>=0.19.1
+keras-preprocessing>=1.0.5
+keras-applications>=1.0.6
+Keras>=2.2.0
+scipy==1.0.0
+seqeval==0.0.3
+six~=1.15.0
+smart-open==1.5.3
+Theano==0.9.0
+Werkzeug==0.15.3
+backports.weakref==1.0rc1
+bleach==3.1.4
+bz2file==0.98
+chardet==3.0.4
+enum34==1.1.6
+h5py~=2.10.0
+html5lib==0.9999999
+idna==2.6
+m2r==0.1.12
+Markdown==2.6.9
+numpy==1.18
+protobuf>=3.9.2
+python-dateutil==2.6.1
+pytz==2017.3
+pandas==0.22
+gensim==3.1.0
